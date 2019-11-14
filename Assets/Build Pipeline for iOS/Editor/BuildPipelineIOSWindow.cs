@@ -23,7 +23,7 @@ namespace LuviKunG.BuildPipeline.iOS
 
         public static BuildPipelineIOSWindow OpenWindow()
         {
-            var window = GetWindow<BuildPipelineIOSWindow>(true, "WebGL Build Pipeline Setting", true);
+            var window = GetWindow<BuildPipelineIOSWindow>(true, "iOS Build Pipeline Setting", true);
             window.Show();
             return window;
         }

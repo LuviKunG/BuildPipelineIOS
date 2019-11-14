@@ -32,7 +32,7 @@ namespace LuviKunG.BuildPipeline.iOS
                 buildPath = Path.Combine(path, settings.GetFolderName());
             else
                 buildPath = path;
-            BuildReport report = UnityEditor.BuildPipeline.BuildPlayer(scenes.ToArray(), buildPath, BuildTarget.WebGL, settings.buildOptions);
+            BuildReport report = UnityEditor.BuildPipeline.BuildPlayer(scenes.ToArray(), buildPath, BuildTarget.iOS, settings.buildOptions);
             BuildSummary summary = report.summary;
             if (summary.result == BuildResult.Succeeded)
             {

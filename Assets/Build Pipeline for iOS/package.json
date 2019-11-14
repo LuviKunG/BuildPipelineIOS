@@ -2,7 +2,7 @@
     "name": "com.luvikung.buildpipelineios",
     "displayName": "Build Pipeline for iOS",
     "description": "Build Pipeline for iOS is a build tools for Unity Editor that able to manage build version by folder and able to modify plist and many settings.",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "unity": "2019.3",
     "license": "MIT",
     "dependencies": {}
